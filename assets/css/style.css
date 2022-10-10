@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(140, 0, 255);
+}
+
+P {
+    color: black;
+}
+
+button {
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 1.3em;
+}
+
+.outer-container {
+    padding: 10px;
+}
+
+.top-bar p {
+    float: right;
+}
+
+.Quiz-area {
+    display: none;
+}
