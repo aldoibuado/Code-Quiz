@@ -5,7 +5,7 @@ startbutton.addEventListener("click", function () {
   showquestion();
   quiztimer();
 });
-
+// questions to the quiz
 var questionbank = [
   {
     question: "Commonly used data types do not include",
@@ -42,6 +42,8 @@ function showquestion() {
   document.querySelector(".button4").innerText =
     questionbank[questionindex].chocies[3];
 }
+
+// adds timer to the quiz
 var timer;
 var time = 75;
 function quiztimer() {
