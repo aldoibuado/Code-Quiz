@@ -10,11 +10,11 @@ N/A
 
 ## Usage
 
-You will be able to click on the start quiz button that will lead to the questions. There is also a timer and a high score. 
+You will be able to click on the start quiz button that will lead to the questions. There is also a timer and a high score.
 
 Link to deployed application: https://aldoibuado.github.io/Code-Quiz/
 
- ![Screenshot (9)](https://user-images.githubusercontent.com/109316738/195245930-50098b7a-81f2-4b61-89ad-4c71f7749aed.png)
+![Screenshot (9)](https://user-images.githubusercontent.com/109316738/195245930-50098b7a-81f2-4b61-89ad-4c71f7749aed.png)
 
 ## License
 
@@ -39,4 +39,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
