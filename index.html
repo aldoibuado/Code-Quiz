@@ -28,23 +28,29 @@
 
         <div class="Quiz-area" id="Quiz-area">
           <p class="Question"></p>
-          <button class="button1"></button>
-          <button class="button2"></button>
-          <button class="button3"></button>
-          <button class="button4"></button>
+          <button class="button1" id="b1"></button>
+          <button class="button2" id="b2"></button>
+          <button class="button3" id="b3"></button>
+          <button class="button4" id="b4"></button>
           <div class="status" id="status-container">
             <hr />
             <p id="answer-status"></p>
           </div>
         </div>
         <div class="done" id="done">
-          <h1>All Done!</h1>
+          <!-- <h1>All Done!</h1> -->
+          <h1 id="all-done">All Done!</h1>
           <p>Final Score: <span id="score"></span></p>
           <span>Enter your initials</span>
-          <input name="initials" type="text" />
-          <input type="submit" value="submit"/>
+          <input name="initials" id="initials" type="text" />
+          <button class="button5">Click Me</button>
         </div>
       </div>
+      <!-- <div class="high-score">
+        <p>View High Score</p>
+        <p id="initials1"></p>
+        <button>Go back</button>
+      </div> -->
     </main>
     <!-- link to the JavaScript -->
     <script src="assets/js/script.js"></script>

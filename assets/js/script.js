@@ -45,7 +45,7 @@ function showquestion() {
 
 // adds timer to the quiz
 var timer;
-var time = 75;
+let time = 75;
 function quiztimer() {
   timer = setInterval(function () {
     if (time > 0) {
@@ -74,6 +74,7 @@ function answerquestion(event) {
     togglestatus("correct");
   } else {
     togglestatus("incorrect");
+    time = time - 10;
   }
   setTimeout(() => {
     disabled = false;
@@ -93,6 +94,7 @@ function toggledonesection(show) {
   var score = document.getElementById("score");
   score.innerText = time;
   clearInterval(timer);
+  document.getElementById("Quiz-area").innerHTML = "";
 }
 
 showquestion();
@@ -100,3 +102,18 @@ document.querySelector(".button1").addEventListener("click", answerquestion);
 document.querySelector(".button2").addEventListener("click", answerquestion);
 document.querySelector(".button3").addEventListener("click", answerquestion);
 document.querySelector(".button4").addEventListener("click", answerquestion);
+document.querySelector(".button5").addEventListener("click", getinitials);
+
+// document.getElementById("initials").value = localStorage.getItem("initials");
+// document.getElementById("score").value = localStorage.getItem("score");
+function getinitials() {
+  let textarea8 = document.getElementById("initials").value;
+  let points = document.getElementById("score").value;
+  localStorage.setItem("initials", textarea8);
+  localStorage.setItem("score", points);
+  document.getElementById("done").innerHTML = "";
+  alert(textarea8, points);
+}
+
+const initials1 = localStorage.getItem("initials");
+document.getElementById("initials1").innerHTML = initials1;

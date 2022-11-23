@@ -22,9 +22,38 @@ p {
     color: black;
 }
 
+#all-done {
+    top: 1.9em;
+    text-align: center;
+}
+
+.done {
+    text-align: center;
+    display: none;
+}
+
 button {
     outline: none;
     font-size: 1.3em;
+}
+
+.Question {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* .allbuttons {
+    outline: none;
+    font-size: 1.3em;
+    background-color: purple;
+    color: white;
+    padding: 50px;
+    border-radius: 10%;
+} */
+
+#b1, #b2, #b3, #b4 {
+    background-color: purple;
+    color: white;
 }
 
 /* removed the border and background color from the view high scores button */
@@ -78,16 +107,17 @@ button {
 
 .Quiz-area {
     display: none;
+    margin: auto;
+    margin-top: 200px;
+    width: 50%;
 }
 
 .status {
     display: none;
 }
 
-.done input[type=submit] {
+.button5 {
   background: purple;
+  color: white;
 }
 
-.done {
-    display: none;
-}
