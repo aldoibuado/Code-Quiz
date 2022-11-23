@@ -117,3 +117,5 @@ function getinitials() {
 
 const initials1 = localStorage.getItem("initials");
 document.getElementById("initials1").innerHTML = initials1;
+
+

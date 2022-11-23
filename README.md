@@ -14,7 +14,7 @@ You will be able to click on the start quiz button that will lead to the questio
 
 Link to deployed application: https://aldoibuado.github.io/Code-Quiz/
 
-![Screenshot (9)](https://user-images.githubusercontent.com/109316738/195245930-50098b7a-81f2-4b61-89ad-4c71f7749aed.png)
+![Screenshot (24)](https://user-images.githubusercontent.com/109316738/203465643-a2edb423-42cb-43c6-a36d-b69fef0c7d4c.png)
 
 ## License
 
